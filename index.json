@@ -1,0 +1,30 @@
+{
+  "statusCodes": {
+    "ok": 200,
+    "created": 201,
+    "accepted": 202,
+    "noContent": 204,
+    "badRequest": 400,
+    "unauthorized": 401,
+    "notFound": 404,
+    "notAllowed": 405,
+    "conflict": 409,
+    "unprocessibleEntity": 422,
+    "internalServerError": 500,
+    "serviceUnavailable": 503
+  },
+  "headers": {
+    "accept": "Accept",
+    "authorization": "Authorization",
+    "contentType": "Content-Type",
+    "contentLength": "Content-Length",
+    "forwardedAuthorization": "X-Forwarded-Authorization",
+    "sentryTrace": "sentry-trace"
+  },
+  "methods": {
+    "delete": "delete",
+    "get": "get",
+    "patch": "patch",
+    "post": "post"
+  }
+}
