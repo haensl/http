@@ -47,7 +47,7 @@ $ yarn add @haensl/http
     CJS, i.e. `require`
 
     ```javascript
-    const { headers, methods} = require('@haensl/http');
+    const { headers, methods } = require('@haensl/http');
 
     // ...
     const requestOptions = {
