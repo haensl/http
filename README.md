@@ -78,7 +78,11 @@ The `http` object is a simple JSON object that maps status codes, headers and st
   "headers": {
     "accept": "Accept",
     "accessControl": {
-      "allowOrigin": "Access-Control-Allow-Origin",
+      "allow": {
+        "origin": "Access-Control-Allow-Origin",
+        "methods": "Access-Control-Allow-Methods"
+        // ...
+      },
       // ...
     },
     "authorization": "Authorization",

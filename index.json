@@ -16,9 +16,20 @@
   "headers": {
     "accept": "Accept",
     "accessControl": {
-      "allowOrigin": "Access-Control-Allow-Origin",
-      "allowMethods": "Access-Control-Allow-Methods",
-      "allowHeaders": "Access-Control-Allow-Headers"
+      "allow": {
+        "credentials": "Access-Control-Allow-Credentials",
+        "origin": "Access-Control-Allow-Origin",
+        "methods": "Access-Control-Allow-Methods",
+        "headers": "Access-Control-Allow-Headers"
+      },
+      "expose": {
+        "headers": "Access-Control-Expose-Headers"
+      },
+      "maxAge": "Access-Control-Max-Age",
+      "request": {
+        "headers": "Access-Control-Request-Headers",
+        "method": "Access-Control-Request-Method"
+      }
     },
     "authorization": "Authorization",
     "contentType": "Content-Type",
