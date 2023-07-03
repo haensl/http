@@ -1,6 +1,6 @@
 {
   "name": "@haensl/http",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple JSON object of common HTTP headers, status codes and methods.",
   "main": "index.json",
   "scripts": {
