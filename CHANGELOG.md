@@ -1,5 +1,5 @@
 ## 1.1.0
-* [#4: Add `Access-Control-Allow-*` headers.](https://github.com/haensl/http/issues/4)
+* [#4: Add `Access-Control-*` headers.](https://github.com/haensl/http/issues/4)
 * Update dependencies.
 
 ## 1.0.0
