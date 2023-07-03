@@ -15,6 +15,11 @@
   },
   "headers": {
     "accept": "Accept",
+    "accessControl": {
+      "allowOrigin": "Access-Control-Allow-Origin",
+      "allowMethods": "Access-Control-Allow-Methods",
+      "allowHeaders": "Access-Control-Allow-Headers"
+    },
     "authorization": "Authorization",
     "contentType": "Content-Type",
     "contentLength": "Content-Length",

@@ -77,6 +77,10 @@ The `http` object is a simple JSON object that maps status codes, headers and st
   },
   "headers": {
     "accept": "Accept",
+    "accessControl": {
+      "allowOrigin": "Access-Control-Allow-Origin",
+      // ...
+    },
     "authorization": "Authorization",
     "contentType": "Content-Type",
     // ...
@@ -88,6 +92,8 @@ The `http` object is a simple JSON object that maps status codes, headers and st
   }
 }
 ```
+
+### [JSON](index.json)
 
 **Attention:** This JSON object is not exhaustive(, yet)! If you need a status code, header or method added, please [create a feature request](https://github.com/haensl/http/issues/new?labels=feature%20request)
 
